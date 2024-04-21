@@ -22,6 +22,7 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.security.GeneralSecurityException;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
@@ -33,7 +34,7 @@ public class SpreadSheetIntegration {
     private NetHttpTransport HTTP_TRANSPORT = null;
     private static Sheets service;
     private static final List<String> SCOPES =
-            Collections.singletonList(SheetsScopes.SPREADSHEETS_READONLY);
+            Arrays.asList(SheetsScopes.SPREADSHEETS,SheetsScopes.DRIVE);
     private static final String CREDENTIALS_FILE_PATH = "/credentials.json";
 
     public SpreadSheetIntegration() throws IOException, GeneralSecurityException {
