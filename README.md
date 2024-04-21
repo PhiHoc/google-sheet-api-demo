@@ -9,7 +9,7 @@
 
 3. **Write Code for CRUD Operations on Sheets**
 
-4. **Write Test Cases to Fetch Product List from Demo Website and Save to Google Sheets**
+4. **Write Test Cases to Fetch Product List from Demo Website and Save to Google Sheets (Product name and price)**
    - Link Demo website: https://vikwp.com/demo/vikrentitems/products-list/
 
 ## Methods:
